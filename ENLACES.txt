@@ -1,0 +1,18 @@
+Proyectos posibles
+(este con buy cofee)
+https://www.youtube.com/watch?v=P2zUVx1XrYI
+
+sin buy cofee- -enlace usado
+https://www.youtube.com/watch?v=AYaWP-VOe-c
+
+añadir javascript a las flechas
+https://www.youtube.com/watch?v=Oalcd6cBkpo
+
+submenú listas desplegables
+https://www.youtube.com/watch?v=6s4HFGD03EE
+
+otro enlace para hotel con galería que funciona
+https://www.youtube.com/watch?v=ibBajOahtyE&t=106s
+
+sistema para hoteles con aspnet para integrar pagos de reservas con Paypal
+https://www.youtube.com/watch?v=j76saA_HEA0
