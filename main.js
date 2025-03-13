@@ -55,3 +55,9 @@ ScrollReveal().reveal(".news_card", {
     interval: 500,
 });
 
+
+
+
+lightGallery(document.querySelector(".gallery"));
+
+
