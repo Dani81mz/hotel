@@ -55,6 +55,18 @@ ScrollReveal().reveal(".news_card", {
     interval: 500,
 });
 
+// Galería js
+ScrollReveal().reveal(".galeria-imagenes", {
+    ...scrollRevealOption,
+    interval: 500,
+});
+
+// galería vídeo 
+ScrollReveal().reveal(".gallery", {
+    ...scrollRevealOption,
+    interval: 500,
+});
+
 
 
 

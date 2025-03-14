@@ -306,6 +306,62 @@ nav{
 
 /* LIGHTBOX 2 */
 
+.intro-galeria{
+    margin: 0 15px;
+    background: linear-gradient(to right,var(--secondary-color) 50%, var(--primary-color) 50%);   
+    position: relative;
+    isolation: isolate;
+    background-color: var(--primary-color);
+    height: 4rem;
+    margin-top: 20px;
+}
+
+.intro-galeria h1{
+    color: var(--primary-color);
+    font-family: var(--header-font);
+    display: flex;
+    align-items: center;
+    right: 30px;
+    margin-left: 10px;
+    height: 90%;
+    padding: 5px;
+}
+
+.intro-galeria p{
+    color: var(--extra-light);
+    text-align: center;
+    margin-left: 60%;
+    line-height: 3vh;
+    font-size: 1rem;
+    transform: translateY(-140%);
+}
+
+@media (max-width: 450px){
+    .intro-galeria p{
+        font-size: 11px;
+        line-height: 2vh;
+        font-weight: 100;
+        transform: translateY(-100%);
+    }
+}
+
+
+
+.intro_container{
+    display: grid;
+    gap: 4rem 2rem;
+}
+
+.intro_container .section_subheader{
+    color: var(--secondary-color);
+}
+
+.intro_container :is(.section_header, .section_description){
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+
 #image-container{
     max-width: 100%;
 }
