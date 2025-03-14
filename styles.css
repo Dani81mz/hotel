@@ -249,101 +249,12 @@ nav{
 }
 
 /* GALERÍA */
-.galeria h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: .8rem;
-    margin-top: 1rem;
-    font-size: 1.8rem;
-    font-weight: 800;
-    font-family: var(--header-font);
-    color: var(--secondary-color);
-}
-
-
-.gallery{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-
-.gallery a{
-    height: 350px;
-    width: 500px;
-    margin: 10px;
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 3px 5px var(--primary-color);
-}
-
-.gallery video{
-    height: 300px;
-    width: 400px;
-    margin: 10px;
-    border-radius: 1px;
-    overflow: hidden;
-    box-shadow: 0 3px 5px var(--primary-color);
-}
-
-.gallery a img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.gallery a img:hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-}
 
 
 /* FIN GALERÍA */
 
 /* LIGHTBOX 2 */
 
-.intro-galeria{
-    margin: 0 15px;
-    background: linear-gradient(to right,var(--secondary-color) 50%, var(--primary-color) 50%);   
-    position: relative;
-    isolation: isolate;
-    background-color: var(--primary-color);
-    height: 4rem;
-    margin-top: 20px;
-}
-
-.intro-galeria h1{
-    color: var(--primary-color);
-    font-family: var(--header-font);
-    display: flex;
-    align-items: center;
-    right: 30px;
-    margin-left: 10px;
-    height: 90%;
-    padding: 5px;
-}
-
-.intro-galeria p{
-    color: var(--extra-light);
-    text-align: center;
-    margin-left: 60%;
-    line-height: 3vh;
-    font-size: 1rem;
-    transform: translateY(-140%);
-}
-
-@media (max-width: 450px){
-    .intro-galeria p{
-        font-size: 11px;
-        line-height: 2vh;
-        font-weight: 100;
-        transform: translateY(-100%);
-    }
-}
 
 
 
@@ -365,6 +276,10 @@ nav{
 #image-container{
     max-width: 100%;
 }
+.about_card .galeria-text {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+}
 
 #image-container h1{
     display: flex;
@@ -378,6 +293,7 @@ nav{
     margin-bottom: 20px;
 }
 
+
 .galeria-imagenes{
     display: flex;
     justify-content: center;
@@ -389,6 +305,13 @@ nav{
 }
 
 .galeria-imagenes img{
+    width: 350px;
+    height: 250px;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+.galeria-imagenes video{
     width: 350px;
     height: 250px;
     padding: 0.5rem;
