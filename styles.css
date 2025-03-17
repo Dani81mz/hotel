@@ -176,7 +176,6 @@ nav{
     background-color: var(--primary-color);
     border-radius: 5px;
     transition: all 0.4s ease-in-out;
-    transform: translateY(20%);
 }
 
 .menu-vertical li a{
@@ -457,6 +456,14 @@ nav{
 }
 
 .room_card_details p{
+    color: var(--text-light);
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+.room_card_details h2{
+    font-weight: 100;
+    font-size: 18px;
     color: var(--text-light);
 }
 
