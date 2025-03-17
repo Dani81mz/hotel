@@ -317,6 +317,15 @@ nav{
     border-radius: 5%;
 }
 
+.descripcion-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    gap: 10px;
+}
+
 .galeria-imagenes img:hover{
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
