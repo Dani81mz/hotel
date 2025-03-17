@@ -470,6 +470,10 @@ nav{
     font-size: 0.8rem;
 }
 
+.room_card_details .btn{
+    font-size: .8rem;
+}
+
 .intro{
     position: relative;
     isolation: isolate;
@@ -624,6 +628,14 @@ nav{
 
 .menu_banner p{
     color: var(--text-light);
+}
+
+.estrella {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: flex;
 }
 
 /* .news_container h2{
